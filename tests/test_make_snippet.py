@@ -19,3 +19,8 @@ def test_snippet_exactly_5():
 def test_empty_string():
     result = make_snippet("")
     assert result == ""
+
+def def_not_a_string():
+    result = make_snippet(2)
+    assert result == "2"
+
